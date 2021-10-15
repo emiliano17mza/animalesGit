@@ -10,10 +10,11 @@ package animales.entidades;
  * @author Usuario
  */
 public class Conejo {
-    String nombre;
-    String apodo;
-    int edad;
-    String color;
+    private String nombre;
+    private String apodo;
+    private int edad;
+    private String color;
+    
 
     public Conejo() {
     }
@@ -55,6 +56,11 @@ public class Conejo {
 
     public void setColor(String color) {
         this.color = color;
+    }
+
+    @Override
+    public String toString() {
+        return "Conejo{" + "nombre=" + nombre + ", apodo=" + apodo + ", edad=" + edad + ", color=" + color + '}';
     }
     
     
