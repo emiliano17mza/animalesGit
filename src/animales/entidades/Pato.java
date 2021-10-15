@@ -4,6 +4,7 @@ public class Pato {
     private int numPatas;
     private String nombre;
     private String parejaPata;
+    private String color;
 
     public Pato(int numPatas, String nombre, String parejaPata) {
         this.numPatas = numPatas;
