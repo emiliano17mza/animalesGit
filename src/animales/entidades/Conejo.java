@@ -14,6 +14,7 @@ public class Conejo {
     String apodo;
     int edad;
     String color;
+    
 
     public Conejo() {
     }
@@ -55,6 +56,11 @@ public class Conejo {
 
     public void setColor(String color) {
         this.color = color;
+    }
+
+    @Override
+    public String toString() {
+        return "Conejo{" + "nombre=" + nombre + ", apodo=" + apodo + ", edad=" + edad + ", color=" + color + '}';
     }
     
     
