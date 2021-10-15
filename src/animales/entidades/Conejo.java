@@ -10,10 +10,10 @@ package animales.entidades;
  * @author Usuario
  */
 public class Conejo {
-    String nombre;
-    String apodo;
-    int edad;
-    String color;
+    private String nombre;
+    private String apodo;
+    private int edad;
+    private String color;
     
 
     public Conejo() {
