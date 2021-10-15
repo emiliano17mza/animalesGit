@@ -14,7 +14,7 @@ public class Conejo {
     String apodo;
     int edad;
     String color;
-    int anio;
+    
 
     public Conejo() {
     }
