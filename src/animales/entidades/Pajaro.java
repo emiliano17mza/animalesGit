@@ -11,17 +11,19 @@ public class Pajaro {
     private String color;
     private double peso;
     private Integer velocidad;
+    private String origen;
 
     public Pajaro() {
     }
 
-    public Pajaro(String nombre, String clase, Integer plumas, String color, double peso, Integer velocidad) {
+    public Pajaro(String nombre, String clase, Integer plumas, String color, double peso, Integer velocidad, String origen) {
         this.nombre = nombre;
         this.clase = clase;
         this.plumas = plumas;
         this.color = color;
         this.peso = peso;
         this.velocidad = velocidad;
+        this.origen = origen;
     }
 
     public String getNombre() {
@@ -72,13 +74,20 @@ public class Pajaro {
         this.velocidad = velocidad;
     }
 
+    public String getOrigen() {
+        return origen;
+    }
+
+    public void setOrigen(String origen) {
+        this.origen = origen;
+    }
+
     @Override
     public String toString() {
-        return "Pajaro{" + "nombre=" + nombre + ", clase=" + clase + ", plumas=" + plumas + ", color=" + color + ", peso=" + peso + ", velocidad=" + velocidad + '}';
+        return "Pajaro{" + "nombre=" + nombre + ", clase=" + clase + ", plumas=" + plumas + ", color=" + color + ", peso=" + peso + ", velocidad=" + velocidad + ", origen=" + origen + '}';
     }
     
     
-    
-    
-
 }
+
+   
