@@ -8,6 +8,7 @@ public class Caballo {
    private Double peso;
    private Double altura;
    private boolean hijos;
+   private boolean dueño;
 
     public Caballo() {
     }
@@ -68,7 +69,11 @@ public class Caballo {
     public void setHijos(boolean hijos) {
         this.hijos = hijos;
     }
-   
-   
-   
+
+    @Override
+    public String toString() {
+        return "Caballo" + "nombre=" + nombre + ", anio=" + anio + ", tipo=" + tipo + ", peso=" + peso + ", altura=" + altura + ", hijos=" + hijos + '}';
+    }
+
+    
 }
