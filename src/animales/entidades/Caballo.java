@@ -73,8 +73,7 @@ public class Caballo {
     public String toString() {
         return "Caballo" + "nombre=" + nombre + ", anio=" + anio + ", tipo=" + tipo + ", peso=" + peso + ", altura=" + altura + ", hijos=" + hijos + '}';
     }
-   
-    
+
    
    
 }
