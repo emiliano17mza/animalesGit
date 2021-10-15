@@ -9,6 +9,7 @@ public class Caballo {
    private Double altura;
    private boolean hijos;
    private boolean dueño;
+   
 
     public Caballo() {
     }
@@ -32,6 +33,14 @@ public class Caballo {
 
     public int getAnio() {
         return anio;
+    }
+
+    public boolean isDueño() {
+        return dueño;
+    }
+
+    public void setDueño(boolean dueño) {
+        this.dueño = dueño;
     }
 
     public void setAnio(int anio) {
